@@ -1,0 +1,12 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var num1 = 3;
+var num2 = 7;
+var num3 = 11;
+var num4 = 16;
+var num5 = 19;
+console.log("num: ".concat(num1));
+console.log("num: ".concat(num2));
+console.log("num: ".concat(num3));
+console.log("num: ".concat(num4));
+console.log("num: ".concat(num5));
