@@ -14,3 +14,4 @@ for(const [key, value] of heightList) {
   console.log(`キーは${key}で値は${value}`);
 }
 
+
