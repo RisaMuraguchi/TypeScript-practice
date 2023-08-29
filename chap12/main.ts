@@ -18,6 +18,11 @@ const params:{
   // 都市名を表すクエリパラメータ
   q: "Himeji",
   // APIキーのクエリパラメータ
-  appId: 
+  appId: process.env.API_KEY as string
 }
 // クエリパラメータを生成
+const queryParams = new URLSearchParams(params);
+// 実際にアクセスするURLを生成
+const urlFull = `${weatherinfoUrl}?${queryParams}`;
+// receiveWeatherInfo関数を実行
+receiveWeatherInfo(urlFull);
