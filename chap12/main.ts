@@ -1,3 +1,6 @@
+import * as dotenv from 'dotenv';
+dotenv.config();
+
 // receiveWeatherInfo関数をインポート
 import {receiveWeatherInfo} from "./weatherinfo-receiver";
 
